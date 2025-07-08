@@ -54,10 +54,10 @@ function playGame(){
         console.log("You have won with a score of " + humanscore);
     }
     else if(computerscore > humanscore){
-        console.log("You lost by" + (computerscore - humanscore) + " points.");
+        console.log("You lost by " + (computerscore - humanscore) + " points.");
     }
     else{
-        console.log("It's a draw! Both got " + computerscore + "points.");
+        console.log("It's a draw! Both got " + computerscore + " points.");
     }
 }
 playGame();
